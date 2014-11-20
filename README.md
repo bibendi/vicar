@@ -1,3 +1,4 @@
+[![Gem Version](https://badge.fury.io/rb/vicar.svg)](http://badge.fury.io/rb/vicar)
 [![Code Climate](https://codeclimate.com/github/bibendi/vicar/badges/gpa.svg)](https://codeclimate.com/github/bibendi/vicar)
 [![Test Coverage](https://codeclimate.com/github/bibendi/vicar/badges/coverage.svg)](https://codeclimate.com/github/bibendi/vicar)
 [![Build Status](https://travis-ci.org/bibendi/vicar.svg)](https://travis-ci.org/bibendi/vicar)
