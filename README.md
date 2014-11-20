@@ -1,3 +1,8 @@
+[![Code Climate](https://codeclimate.com/github/bibendi/vicar/badges/gpa.svg)](https://codeclimate.com/github/bibendi/vicar)
+[![Test Coverage](https://codeclimate.com/github/bibendi/vicar/badges/coverage.svg)](https://codeclimate.com/github/bibendi/vicar)
+[![Build Status](https://travis-ci.org/bibendi/vicar.svg)](https://travis-ci.org/bibendi/vicar)
+[![Dependency Status](https://gemnasium.com/bibendi/vicar.svg)](https://gemnasium.com/bibendi/vicar)
+
 # Vicar
 
 Presenter for Ruby on Rails
@@ -20,7 +25,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+See work example in spec/ folder
 
 ## Contributing
 

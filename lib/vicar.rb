@@ -1,5 +1,7 @@
-require "vicar/version"
+require 'vicar/version'
+require 'vicar/railtie'
 
 module Vicar
-  # Your code goes here...
+  autoload :BasePresenter, 'vicar/base_presenter'
+  autoload :RailsExtensions, 'vicar/rails_extensions'
 end
