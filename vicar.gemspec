@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["bibendi"]
   spec.email         = ["bibendi@bk.ru"]
   spec.summary       = %q{Presenters for Rails}
-  spec.description   = ''
-  spec.homepage      = ""
+  spec.description   = %q{Bridge between logig and view}
+  spec.homepage      = "https://github.com/bibendi/vicar"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
@@ -18,11 +18,12 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
-  spec.add_runtime_dependency "actionpack", ">= 3.1.0"
+  spec.add_runtime_dependency "actionpack", ">= 3.1.0", "< 5.0"
 
   spec.add_development_dependency "bundler", "~> 1.7"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "rspec-rails", "~> 3.1"
+  spec.add_development_dependency "appraisal", "~> 1.0"
   spec.add_development_dependency "combustion", "~> 0.5"
   spec.add_development_dependency "codeclimate-test-reporter"
 end
